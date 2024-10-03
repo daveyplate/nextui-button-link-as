@@ -1,8 +1,8 @@
 {
-  "name": "@leakeddave/my-jsx-package",
-  "homepage": "https://github.com/LeakedDave/my-jsx-package",
-  "version": "1.0.2",
-  "description": "",
+  "name": "@daveyplate/nextui-button-link-as",
+  "homepage": "https://github.com/daveyplate/nextui-button-link-as",
+  "version": "1.0.0",
+  "description": "Allows you to chain as prop to Next.JS Link components & NextUI Button components.",
   "module": "dist/index",
   "types": "dist/index",
   "files": [
@@ -13,7 +13,13 @@
     "build": "babel src --out-dir dist && npx tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "next.js",
+    "nextui",
+    "button",
+    "link",
+    "as"
+  ],
   "author": "LeakedDave",
   "license": "ISC",
   "devDependencies": {
@@ -23,8 +29,15 @@
     "@babel/preset-react": "^7.25.7",
     "typescript": "^5.6.2"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "next": "^14.2.14",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "framer-motion": "^11.9.0"
+  },
+  "dependencies": {
+    "@nextui-org/button": "^2.0.38",
+    "@nextui-org/system": "^2.2.6",
+    "@nextui-org/theme": "^2.2.11"
   }
 }
