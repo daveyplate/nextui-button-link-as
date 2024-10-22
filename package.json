@@ -1,7 +1,7 @@
 {
   "name": "@daveyplate/nextui-button-link-as",
   "homepage": "https://github.com/daveyplate/nextui-button-link-as",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allows you to chain as prop to Next.JS Link components & NextUI Button components.",
   "module": "dist/index",
   "types": "dist/index",
